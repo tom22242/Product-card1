@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+    background-color: rgb(245, 241, 224);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.container{
+  margin-top: 100px;
+  margin-left: 430px;
+  max-width: 600px;
+  height: 500px;
+  background: hsl(30, 38%, 92%);
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  
+
+
+
+  
+
+}
+
+
+.image{
+  background-image: url(/images/image-product-desktop.jpg);
+  max-height: 1900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1 ;
+
+}
+.content{
+  width: 50%;
+  background: hsl(0deg 0% 100%);
+  flex: 1;
+
+  
+  
+}
+.content h4{
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 10px;
+  
+
+}
+.content h1{
+  font-family: Fraunces,serif;
+  color: hsl(212, 21%, 14%);
+  padding: 10px;
+  margin: 10px;
+}
+.content p{
+  font-size: 14px;
+  line-height: 20px;
+  color: hsl(228, 47%, 57%);
+  margin: 10px;
+  margin-right: 20px;
+  padding-left:10px;
+  
+}
+.ratebox{
+  
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  display :flex
+  
+}
+.ratebox h1{
+  font-family: Fraunces,serif;
+  color: hsl(158, 36%, 37%);
+  padding-left:10px; 
+}
+.oldrate{
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  padding-right: 5px;
+  font-weight: lighter;
+}
+.cartbox{
+  background: hsl(158, 36%, 37%);
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+  align-items: center;
+  margin-left: 30px;
+}
+.cartbox .text{
+  color:  hsl(0, 0%, 100%);
+  padding-left: 50px;
+}
+.cartbox:hover{
+  background: hsl(156, 92%, 19%);
+}
+.git{
+  
+  margin-left: 700px;
+  margin-top: 50px;
+
+padding: auto;}
+
+.cartbox .text{
+  align-content: center;
+  
+
+
+
+
+
+
+  
+}
